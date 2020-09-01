@@ -5,7 +5,7 @@ The purpose of this paper is to a develop machine learning models to identify po
 The project topic is from Kaggle competition. The dataset is obtained from Vesta, the world’s leading payment service company. 
 The large-scale dataset contains over 500,000 rows and 430 columns. Each row represents a transaction and each column indicates information about the identity of the customer and transaction information. The goal is to train a model that will take important features in those columns as an input then produce a target result whether that transaction is fraud or not.
 
-Data Description
+# Data Description
 This data was extracted from Kaggle’s competition. It provides a list of all the transactions from Vesta’s customers. There are four separated excel files in the packages namely: train_transaction, test_transaction, train_identity, test_identity. 
  
 Train_transaction and Test_Transaction provide transaction information. Attributes in the files are defined as the following:
@@ -23,5 +23,5 @@ Train_transaction and Test_Transaction provide transaction information. Attribut
 Whereas Train_identity and Test_identity provides information about the identity of the customers (such as network connection information: IP, ISP, Proxy, and digital signature: UA/browser/os/version associated with transactions). 
 
 
-References
+# References
 https://www.kaggle.com/c/ieee-fraud-detection
